@@ -5,6 +5,7 @@ def study_schedule(permanence_period: List[Tuple[int, int]], target_time: int
                    ) -> int:
     if not isinstance(target_time, int):
         return None
+
     counter = 0
 
     for number_studying_same_time in permanence_period:
